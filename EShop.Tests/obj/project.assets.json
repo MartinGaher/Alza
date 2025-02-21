@@ -2869,6 +2869,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "EShop.Core": "1.0.0",
+          "EShop.Mocks": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.2"
         },
@@ -2877,6 +2878,19 @@
         },
         "runtime": {
           "bin/placeholder/EShop.Infrastructure.dll": {}
+        }
+      },
+      "EShop.Mocks/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EShop.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EShop.Mocks.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EShop.Mocks.dll": {}
         }
       }
     }
@@ -8706,6 +8720,11 @@
       "type": "project",
       "path": "../EShop.Infrastructure/EShop.Infrastructure.csproj",
       "msbuildProject": "../EShop.Infrastructure/EShop.Infrastructure.csproj"
+    },
+    "EShop.Mocks/1.0.0": {
+      "type": "project",
+      "path": "../EShop.Mocks/EShop.Mocks.csproj",
+      "msbuildProject": "../EShop.Mocks/EShop.Mocks.csproj"
     }
   },
   "projectFileDependencyGroups": {

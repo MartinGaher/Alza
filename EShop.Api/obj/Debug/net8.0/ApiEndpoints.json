@@ -1,8 +1,55 @@
 [
   {
+    "ContainingType": "EShop.Api.Controllers.v1.ProductsController",
+    "Method": "GetAllProducts",
+    "RelativePath": "api/v1/Products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EShop.Api.Controllers.v1.ProductsController",
+    "Method": "GetProductById",
+    "RelativePath": "api/v1/Products/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EShop.Api.Controllers.v1.ProductsController",
+    "Method": "UpdateProductDescription",
+    "RelativePath": "api/v1/Products/{id}/description",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EShop.Api.Controllers.v2.ProductsController",
     "Method": "GetAllProductsV2",
-    "RelativePath": "api/Products",
+    "RelativePath": "api/v2/Products",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -21,19 +68,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EShop.Api.Controllers.v1.ProductsController",
-    "Method": "GetAllProducts",
-    "RelativePath": "api/Products",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "EShop.Api.Controllers.v1.ProductsController",
+    "ContainingType": "EShop.Api.Controllers.v2.ProductsController",
     "Method": "GetProductById",
-    "RelativePath": "api/Products/{id}",
+    "RelativePath": "api/v2/Products/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -47,9 +84,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EShop.Api.Controllers.v1.ProductsController",
+    "ContainingType": "EShop.Api.Controllers.v2.ProductsController",
     "Method": "UpdateProductDescription",
-    "RelativePath": "api/Products/{id}/description",
+    "RelativePath": "api/v2/Products/{id}/description",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,

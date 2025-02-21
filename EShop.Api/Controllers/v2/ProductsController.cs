@@ -7,7 +7,7 @@ namespace EShop.Api.Controllers.v2
     /// Products Controller
     /// </summary>
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/v2/[controller]")]
     [ApiVersion("2.0")]
     public class ProductsController : ControllerBase
     {

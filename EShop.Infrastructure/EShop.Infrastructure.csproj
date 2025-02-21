@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EShop.Core\EShop.Core.csproj" />
+    <ProjectReference Include="..\EShop.Mocks\EShop.Mocks.csproj" />
   </ItemGroup>
 
 </Project>

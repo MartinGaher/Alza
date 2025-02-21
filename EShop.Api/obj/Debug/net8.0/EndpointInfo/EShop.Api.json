@@ -5,7 +5,7 @@
     "version": "v1"
   },
   "paths": {
-    "/api/Products": {
+    "/api/v1/Products": {
       "get": {
         "tags": [
           "Products"
@@ -18,7 +18,7 @@
         }
       }
     },
-    "/api/Products/{id}": {
+    "/api/v1/Products/{id}": {
       "get": {
         "tags": [
           "Products"
@@ -43,7 +43,7 @@
         }
       }
     },
-    "/api/Products/{id}/description": {
+    "/api/v1/Products/{id}/description": {
       "patch": {
         "tags": [
           "Products"
