@@ -9,6 +9,7 @@ C:\Alza\EShop.Application\obj\Debug\net8.0\EShop.Application.GeneratedMSBuildEdi
 C:\Alza\EShop.Application\obj\Debug\net8.0\EShop.Application.AssemblyInfoInputs.cache
 C:\Alza\EShop.Application\obj\Debug\net8.0\EShop.Application.AssemblyInfo.cs
 C:\Alza\EShop.Application\obj\Debug\net8.0\EShop.Application.csproj.CoreCompileInputs.cache
+C:\Alza\EShop.Application\obj\Debug\net8.0\EShop.Application.sourcelink.json
 C:\Alza\EShop.Application\obj\Debug\net8.0\EShop.Ap.140E939F.Up2Date
 C:\Alza\EShop.Application\obj\Debug\net8.0\EShop.Application.dll
 C:\Alza\EShop.Application\obj\Debug\net8.0\refint\EShop.Application.dll

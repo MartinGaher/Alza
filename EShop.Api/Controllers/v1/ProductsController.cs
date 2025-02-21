@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Asp.Versioning;
+using Microsoft.AspNetCore.Mvc;
 
 namespace EShop.Api.Controllers.v1
 {
@@ -7,6 +8,7 @@ namespace EShop.Api.Controllers.v1
     /// </summary>
     [ApiController]
     [Route("api/[controller]")]
+    [ApiVersion("1.0")]
     public class ProductsController : ControllerBase
     {
         private readonly IProductService _productService;
@@ -24,6 +26,7 @@ namespace EShop.Api.Controllers.v1
         /// </summary>
         /// <returns>The list of products.</returns>
         [HttpGet]
+        [MapToApiVersion("1.0")]
         public async Task<IActionResult> GetAllProducts() => Ok(await _productService.GetAllProducts());
 
         /// <summary>
@@ -32,6 +35,7 @@ namespace EShop.Api.Controllers.v1
         /// <param name="id">The ID of the product.</param>
         /// <returns>The product details.</returns>
         [HttpGet("{id}")]
+        [MapToApiVersion("1.0")]
         public async Task<IActionResult> GetProductById(int id)
         {
             var product = await _productService.GetProductById(id);
@@ -46,6 +50,7 @@ namespace EShop.Api.Controllers.v1
         /// <param name="description">The new description.</param>
         /// <returns>Success message.</returns>
         [HttpPatch("{id}/description")]
+        [MapToApiVersion("1.0")]
         public async Task<IActionResult> UpdateProductDescription(int id, [FromBody] string description)
         {
             try

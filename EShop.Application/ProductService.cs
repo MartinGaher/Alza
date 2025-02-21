@@ -1,4 +1,6 @@
-﻿public class ProductService : IProductService
+﻿using Azure;
+
+public class ProductService : IProductService
 {
     private readonly IProductRepository _productRepository;
 
@@ -6,9 +8,9 @@
     {
         _productRepository = productRepository;
     }
-    public async Task<IEnumerable<Product>> GetAllProducts()
+    public async Task<IEnumerable<Product>> GetAllProducts(int page = 1, int pageSize = 10)
     {
-        return await _productRepository.GetAllProducts();
+        return await _productRepository.GetAllProducts(page, pageSize);
     }
 
     public async Task<Product?> GetProductById(int id)

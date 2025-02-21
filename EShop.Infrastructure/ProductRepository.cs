@@ -9,9 +9,12 @@ public class ProductRepository : IProductRepository
         _context = context;
     }
     
-    public async Task<IEnumerable<Product>> GetAllProducts()
+    public async Task<IEnumerable<Product>> GetAllProducts(int page, int pageSize)
     {
-        return await _context.Products.ToListAsync();
+        return await _context.Products
+           .Skip((page - 1) * pageSize)
+           .Take(pageSize)
+           .ToListAsync();
     }
     
     public async Task<Product?> GetProductById(int id)

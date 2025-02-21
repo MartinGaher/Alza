@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "EShop.Api",
-    "version": "1.0"
+    "title": "EShop API",
+    "version": "v1"
   },
   "paths": {
     "/api/Products": {
@@ -10,6 +10,7 @@
         "tags": [
           "Products"
         ],
+        "summary": "Gets all products",
         "responses": {
           "200": {
             "description": "OK"
@@ -22,10 +23,12 @@
         "tags": [
           "Products"
         ],
+        "summary": "Gets a product by its ID.",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "The ID of the product.",
             "required": true,
             "schema": {
               "type": "integer",
@@ -45,10 +48,12 @@
         "tags": [
           "Products"
         ],
+        "summary": "Update produst description",
         "parameters": [
           {
             "name": "id",
             "in": "path",
+            "description": "The ID of the product.",
             "required": true,
             "schema": {
               "type": "integer",
@@ -57,6 +62,7 @@
           }
         ],
         "requestBody": {
+          "description": "The new description.",
           "content": {
             "application/json": {
               "schema": {

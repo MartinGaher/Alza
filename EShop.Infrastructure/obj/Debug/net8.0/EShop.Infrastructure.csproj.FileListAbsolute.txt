@@ -9,6 +9,7 @@ C:\Alza\EShop.Infrastructure\obj\Debug\net8.0\EShop.Infrastructure.GeneratedMSBu
 C:\Alza\EShop.Infrastructure\obj\Debug\net8.0\EShop.Infrastructure.AssemblyInfoInputs.cache
 C:\Alza\EShop.Infrastructure\obj\Debug\net8.0\EShop.Infrastructure.AssemblyInfo.cs
 C:\Alza\EShop.Infrastructure\obj\Debug\net8.0\EShop.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Alza\EShop.Infrastructure\obj\Debug\net8.0\EShop.Infrastructure.sourcelink.json
 C:\Alza\EShop.Infrastructure\obj\Debug\net8.0\EShop.In.8DF51FE2.Up2Date
 C:\Alza\EShop.Infrastructure\obj\Debug\net8.0\EShop.Infrastructure.dll
 C:\Alza\EShop.Infrastructure\obj\Debug\net8.0\refint\EShop.Infrastructure.dll

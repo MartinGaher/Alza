@@ -1,0 +1,276 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Alza\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{229E0809-530B-453A-B216-53ED33C874F8}|EShop.Api\\EShop.Api.csproj|c:\\alza\\eshop.api\\controllers\\v2\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229E0809-530B-453A-B216-53ED33C874F8}|EShop.Api\\EShop.Api.csproj|solutionrelative:eshop.api\\controllers\\v2\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229E0809-530B-453A-B216-53ED33C874F8}|EShop.Api\\EShop.Api.csproj|c:\\alza\\eshop.api\\controllers\\v1\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229E0809-530B-453A-B216-53ED33C874F8}|EShop.Api\\EShop.Api.csproj|solutionrelative:eshop.api\\controllers\\v1\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FB66C9-BFD0-4137-8E9A-AED449CADD8C}|EShop.Tests\\EShop.Tests.csproj|c:\\alza\\eshop.tests\\productservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2FB66C9-BFD0-4137-8E9A-AED449CADD8C}|EShop.Tests\\EShop.Tests.csproj|solutionrelative:eshop.tests\\productservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FB66C9-BFD0-4137-8E9A-AED449CADD8C}|EShop.Tests\\EShop.Tests.csproj|c:\\alza\\eshop.tests\\productcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2FB66C9-BFD0-4137-8E9A-AED449CADD8C}|EShop.Tests\\EShop.Tests.csproj|solutionrelative:eshop.tests\\productcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229E0809-530B-453A-B216-53ED33C874F8}|EShop.Api\\EShop.Api.csproj|c:\\alza\\eshop.api\\eshop.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{229E0809-530B-453A-B216-53ED33C874F8}|EShop.Api\\EShop.Api.csproj|solutionrelative:eshop.api\\eshop.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229E0809-530B-453A-B216-53ED33C874F8}|EShop.Api\\EShop.Api.csproj|c:\\alza\\eshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{229E0809-530B-453A-B216-53ED33C874F8}|EShop.Api\\EShop.Api.csproj|solutionrelative:eshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229E0809-530B-453A-B216-53ED33C874F8}|EShop.Api\\EShop.Api.csproj|c:\\alza\\eshop.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{229E0809-530B-453A-B216-53ED33C874F8}|EShop.Api\\EShop.Api.csproj|solutionrelative:eshop.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229E0809-530B-453A-B216-53ED33C874F8}|EShop.Api\\EShop.Api.csproj|c:\\alza\\eshop.api\\eshop.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{229E0809-530B-453A-B216-53ED33C874F8}|EShop.Api\\EShop.Api.csproj|solutionrelative:eshop.api\\eshop.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9177DE-8B85-4743-9717-A0907FB517EF}|EShop.Application\\EShop.Application.csproj|c:\\alza\\eshop.application\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9177DE-8B85-4743-9717-A0907FB517EF}|EShop.Application\\EShop.Application.csproj|solutionrelative:eshop.application\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9177DE-8B85-4743-9717-A0907FB517EF}|EShop.Application\\EShop.Application.csproj|c:\\alza\\eshop.application\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB9177DE-8B85-4743-9717-A0907FB517EF}|EShop.Application\\EShop.Application.csproj|solutionrelative:eshop.application\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68BFCEC-ABFF-43C6-A212-EC5C5AEDC2C4}|EShop.Infrastructure\\EShop.Infrastructure.csproj|c:\\alza\\eshop.infrastructure\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68BFCEC-ABFF-43C6-A212-EC5C5AEDC2C4}|EShop.Infrastructure\\EShop.Infrastructure.csproj|solutionrelative:eshop.infrastructure\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36F5F72F-806B-4036-BCC3-CFCD354C21C6}|EShop.Core\\EShop.Core.csproj|c:\\alza\\eshop.core\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F5F72F-806B-4036-BCC3-CFCD354C21C6}|EShop.Core\\EShop.Core.csproj|solutionrelative:eshop.core\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{229E0809-530B-453A-B216-53ED33C874F8}|EShop.Api\\EShop.Api.csproj|c:\\alza\\eshop.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{229E0809-530B-453A-B216-53ED33C874F8}|EShop.Api\\EShop.Api.csproj|solutionrelative:eshop.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB9177DE-8B85-4743-9717-A0907FB517EF}|EShop.Application\\EShop.Application.csproj|c:\\alza\\eshop.application\\eshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CB9177DE-8B85-4743-9717-A0907FB517EF}|EShop.Application\\EShop.Application.csproj|solutionrelative:eshop.application\\eshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68BFCEC-ABFF-43C6-A212-EC5C5AEDC2C4}|EShop.Infrastructure\\EShop.Infrastructure.csproj|c:\\alza\\eshop.infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68BFCEC-ABFF-43C6-A212-EC5C5AEDC2C4}|EShop.Infrastructure\\EShop.Infrastructure.csproj|solutionrelative:eshop.infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36F5F72F-806B-4036-BCC3-CFCD354C21C6}|EShop.Core\\EShop.Core.csproj|c:\\alza\\eshop.core\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F5F72F-806B-4036-BCC3-CFCD354C21C6}|EShop.Core\\EShop.Core.csproj|solutionrelative:eshop.core\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductServiceTest.cs",
+              "DocumentMoniker": "C:\\Alza\\EShop.Tests\\ProductServiceTest.cs",
+              "RelativeDocumentMoniker": "EShop.Tests\\ProductServiceTest.cs",
+              "ToolTip": "C:\\Alza\\EShop.Tests\\ProductServiceTest.cs",
+              "RelativeToolTip": "EShop.Tests\\ProductServiceTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:25:36.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EShop.Api",
+              "DocumentMoniker": "C:\\Alza\\EShop.Api\\EShop.Api.csproj",
+              "RelativeDocumentMoniker": "EShop.Api\\EShop.Api.csproj",
+              "ToolTip": "C:\\Alza\\EShop.Api\\EShop.Api.csproj",
+              "RelativeToolTip": "EShop.Api\\EShop.Api.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-21T09:17:26.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Alza\\EShop.Application\\IProductService.cs",
+              "RelativeDocumentMoniker": "EShop.Application\\IProductService.cs",
+              "ToolTip": "C:\\Alza\\EShop.Application\\IProductService.cs",
+              "RelativeToolTip": "EShop.Application\\IProductService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAIAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:23:05.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Alza\\EShop.Core\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "EShop.Core\\IProductRepository.cs",
+              "ToolTip": "C:\\Alza\\EShop.Core\\IProductRepository.cs",
+              "RelativeToolTip": "EShop.Core\\IProductRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:22:11.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Alza\\EShop.Infrastructure\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "EShop.Infrastructure\\ProductRepository.cs",
+              "ToolTip": "C:\\Alza\\EShop.Infrastructure\\ProductRepository.cs",
+              "RelativeToolTip": "EShop.Infrastructure\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:21:09.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Alza\\EShop.Application\\ProductService.cs",
+              "RelativeDocumentMoniker": "EShop.Application\\ProductService.cs",
+              "ToolTip": "C:\\Alza\\EShop.Application\\ProductService.cs",
+              "RelativeToolTip": "EShop.Application\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:18:37.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Alza\\EShop.Api\\Controllers\\v1\\ProductsController.cs",
+              "RelativeDocumentMoniker": "EShop.Api\\Controllers\\v1\\ProductsController.cs",
+              "ToolTip": "C:\\Alza\\EShop.Api\\Controllers\\v1\\ProductsController.cs",
+              "RelativeToolTip": "EShop.Api\\Controllers\\v1\\ProductsController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:24:19.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Alza\\EShop.Api\\Controllers\\v2\\ProductsController.cs",
+              "RelativeDocumentMoniker": "EShop.Api\\Controllers\\v2\\ProductsController.cs",
+              "ToolTip": "C:\\Alza\\EShop.Api\\Controllers\\v2\\ProductsController.cs",
+              "RelativeToolTip": "EShop.Api\\Controllers\\v2\\ProductsController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:09:14.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Alza\\EShop.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EShop.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Alza\\EShop.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EShop.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-21T09:17:30.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductControllerTest.cs",
+              "DocumentMoniker": "C:\\Alza\\EShop.Tests\\ProductControllerTest.cs",
+              "RelativeDocumentMoniker": "EShop.Tests\\ProductControllerTest.cs",
+              "ToolTip": "C:\\Alza\\EShop.Tests\\ProductControllerTest.cs",
+              "RelativeToolTip": "EShop.Tests\\ProductControllerTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T09:26:26.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Alza\\EShop.Api\\Program.cs",
+              "RelativeDocumentMoniker": "EShop.Api\\Program.cs",
+              "ToolTip": "C:\\Alza\\EShop.Api\\Program.cs",
+              "RelativeToolTip": "EShop.Api\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAEwCEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:27:51.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EShop.Api.csproj",
+              "DocumentMoniker": "C:\\Alza\\EShop.Api\\EShop.Api.csproj",
+              "RelativeDocumentMoniker": "EShop.Api\\EShop.Api.csproj",
+              "ToolTip": "C:\\Alza\\EShop.Api\\EShop.Api.csproj",
+              "RelativeToolTip": "EShop.Api\\EShop.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-21T08:23:56.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EShop.Application.csproj",
+              "DocumentMoniker": "C:\\Alza\\EShop.Application\\EShop.Application.csproj",
+              "RelativeDocumentMoniker": "EShop.Application\\EShop.Application.csproj",
+              "ToolTip": "C:\\Alza\\EShop.Application\\EShop.Application.csproj",
+              "RelativeToolTip": "EShop.Application\\EShop.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-21T08:25:58.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Alza\\EShop.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "EShop.Api\\appsettings.json",
+              "ToolTip": "C:\\Alza\\EShop.Api\\appsettings.json",
+              "RelativeToolTip": "EShop.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-21T08:42:30.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Alza\\EShop.Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "EShop.Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Alza\\EShop.Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "EShop.Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:19:28.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Alza\\EShop.Core\\Product.cs",
+              "RelativeDocumentMoniker": "EShop.Core\\Product.cs",
+              "ToolTip": "C:\\Alza\\EShop.Core\\Product.cs",
+              "RelativeToolTip": "EShop.Core\\Product.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T08:19:07.909Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

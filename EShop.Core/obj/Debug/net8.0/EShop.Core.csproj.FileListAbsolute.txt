@@ -7,6 +7,7 @@ C:\Alza\EShop.Core\obj\Debug\net8.0\EShop.Core.GeneratedMSBuildEditorConfig.edit
 C:\Alza\EShop.Core\obj\Debug\net8.0\EShop.Core.AssemblyInfoInputs.cache
 C:\Alza\EShop.Core\obj\Debug\net8.0\EShop.Core.AssemblyInfo.cs
 C:\Alza\EShop.Core\obj\Debug\net8.0\EShop.Core.csproj.CoreCompileInputs.cache
+C:\Alza\EShop.Core\obj\Debug\net8.0\EShop.Core.sourcelink.json
 C:\Alza\EShop.Core\obj\Debug\net8.0\EShop.Core.dll
 C:\Alza\EShop.Core\obj\Debug\net8.0\refint\EShop.Core.dll
 C:\Alza\EShop.Core\obj\Debug\net8.0\EShop.Core.pdb

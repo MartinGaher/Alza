@@ -6,6 +6,11 @@ C:\Alza\EShop.Api\bin\Debug\net8.0\EShop.Api.deps.json
 C:\Alza\EShop.Api\bin\Debug\net8.0\EShop.Api.runtimeconfig.json
 C:\Alza\EShop.Api\bin\Debug\net8.0\EShop.Api.dll
 C:\Alza\EShop.Api\bin\Debug\net8.0\EShop.Api.pdb
+C:\Alza\EShop.Api\bin\Debug\net8.0\EShop.Api.xml
+C:\Alza\EShop.Api\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Alza\EShop.Api\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Alza\EShop.Api\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Alza\EShop.Api\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
 C:\Alza\EShop.Api\bin\Debug\net8.0\Azure.Core.dll
 C:\Alza\EShop.Api\bin\Debug\net8.0\Azure.Identity.dll
 C:\Alza\EShop.Api\bin\Debug\net8.0\Humanizer.dll
@@ -159,6 +164,7 @@ C:\Alza\EShop.Api\obj\Debug\net8.0\EShop.Api.AssemblyInfo.cs
 C:\Alza\EShop.Api\obj\Debug\net8.0\EShop.Api.csproj.CoreCompileInputs.cache
 C:\Alza\EShop.Api\obj\Debug\net8.0\EShop.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Alza\EShop.Api\obj\Debug\net8.0\EShop.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Alza\EShop.Api\obj\Debug\net8.0\EShop.Api.sourcelink.json
 C:\Alza\EShop.Api\obj\Debug\net8.0\scopedcss\bundle\EShop.Api.styles.css
 C:\Alza\EShop.Api\obj\Debug\net8.0\staticwebassets.build.json
 C:\Alza\EShop.Api\obj\Debug\net8.0\staticwebassets.development.json
