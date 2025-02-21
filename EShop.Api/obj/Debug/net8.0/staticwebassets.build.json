@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "hJYbbRz0b54PpIwaaCyEwJi1qJEkXthY/N+yiO/APzI=",
+  "Source": "EShop.Api",
+  "BasePath": "_content/EShop.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
