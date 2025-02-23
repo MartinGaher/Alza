@@ -1,4 +1,6 @@
 ﻿using EShop.Api.Controllers.v1;
+using EShop.Application;
+using EShop.Core;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 

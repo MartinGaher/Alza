@@ -65,6 +65,5 @@ namespace EShop.Api.Swagger
                 });
             }
         }
-
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EShop.Mocks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21f32ae60da7b7fd9532438aa1e0402d35e6cb69")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d4e966fa59671b5ec0972bd654fde5e74d8dc66")]
 [assembly: System.Reflection.AssemblyProductAttribute("EShop.Mocks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EShop.Mocks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

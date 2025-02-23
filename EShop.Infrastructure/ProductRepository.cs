@@ -1,38 +1,43 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using EShop.Core;
+using Microsoft.EntityFrameworkCore;
 
-public class ProductRepository : IProductRepository
+namespace EShop.Infrastructure
 {
-    private readonly AppDbContext _context;
+    public class ProductRepository(AppDbContext context) : IProductRepository
+    {
+        private readonly AppDbContext _context = context;
 
-    public ProductRepository(AppDbContext context)
-    {
-        _context = context;
-    }
-    
-    public async Task<IEnumerable<Product>> GetAllProducts(int page, int pageSize)
-    {
-        return await _context.Products
-           .Skip((page - 1) * pageSize)
-           .Take(pageSize)
-           .ToListAsync();
-    }
-    
-    public async Task<Product?> GetProductById(int id)
-    {
-        return await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
-    }
-
-    public async Task UpdateProductDescription(int id, string description)
-    {
-        var product = await _context.Products.FirstOrDefaultAsync(p => p.Id == id);
-        if (product != null)
+        public async Task<IEnumerable<Product>> GetAllProducts()
         {
-            product.Description = description;
-            await _context.SaveChangesAsync();
+            return await _context.Products.ToListAsync();
         }
-        else
+
+        public async Task<IEnumerable<Product>> GetAllProducts(int page, int pageSize)
         {
-            throw new KeyNotFoundException($"Product with ID {id} not found.");
+            return await _context.Products
+               .Skip((page - 1) * pageSize)
+               .Take(pageSize)
+               .ToListAsync();
+        }
+
+        public async Task<Product?> GetProductById(int id)
+        {
+            return await _context.Products.FindAsync(id);
+        }
+
+        public async Task UpdateProductDescription(int id, string description)
+        {
+            var product = await _context.Products.FindAsync(id);
+
+            if (product != null)
+            {
+                product.Description = description;
+                await _context.SaveChangesAsync();
+            }
+            else
+            {
+                throw new KeyNotFoundException($"Product with ID {id} not found.");
+            }
         }
     }
 }

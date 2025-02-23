@@ -1,7 +1,9 @@
 using EShop.Api.Swagger;
+using EShop.Application;
+using EShop.Core;
 using EShop.Core.Factories;
+using EShop.Infrastructure;
 using EShop.Infrastructure.Factories;
-using EShop.Mocks;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,18 +21,6 @@ bool useMockData = builder.Configuration.GetValue<bool>("UseMockData");
 
 // Register the repository factory as scoped
 builder.Services.AddScoped<IRepositoryFactory>(provider => new RepositoryFactory(useMockData));
-
-// Register the repository based on the useMockData flag
-if (useMockData)
-{
-    // Use the mock repository
-    builder.Services.AddScoped<IProductRepository, MockProductRepository>();
-}
-else
-{
-    // Use the real repository
-    builder.Services.AddScoped<IProductRepository, ProductRepository>();
-}
 
 // Use the factory to resolve the repository in your services
 builder.Services.AddScoped<IProductRepository>(provider =>

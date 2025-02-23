@@ -66,42 +66,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "EShop.Api.Controllers.v2.ProductsController",
-    "Method": "GetProductById",
-    "RelativePath": "api/v2/Products/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "EShop.Api.Controllers.v2.ProductsController",
-    "Method": "UpdateProductDescription",
-    "RelativePath": "api/v2/Products/{id}/description",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "description",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   }
 ]

@@ -1,4 +1,5 @@
 ﻿using Asp.Versioning;
+using EShop.Application;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EShop.Api.Controllers.v1
@@ -6,20 +7,15 @@ namespace EShop.Api.Controllers.v1
     /// <summary>
     /// Products Controller
     /// </summary>
+    /// <remarks>
+    /// Products Controller constructor
+    /// </remarks>
     [ApiController]
     [Route("api/v1/[controller]")]
     [ApiVersion("1.0")]
-    public class ProductsController : ControllerBase
+    public class ProductsController(IProductService productService) : ControllerBase
     {
-        private readonly IProductService _productService;
-
-        /// <summary>
-        /// Products Controller constructor
-        /// </summary>
-        public ProductsController(IProductService productService)
-        {
-            _productService = productService;
-        }
+        private readonly IProductService _productService = productService;
 
         /// <summary>
         /// Gets all products
@@ -39,7 +35,12 @@ namespace EShop.Api.Controllers.v1
         public async Task<IActionResult> GetProductById(int id)
         {
             var product = await _productService.GetProductById(id);
-            if (product == null) return NotFound();
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+
             return Ok(product);
         }
 
@@ -56,6 +57,7 @@ namespace EShop.Api.Controllers.v1
             try
             {
                 await _productService.UpdateProductDescription(id, description);
+
                 return NoContent();
             }
             catch (KeyNotFoundException)

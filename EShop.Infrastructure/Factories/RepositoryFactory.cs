@@ -1,9 +1,8 @@
-﻿using EShop.Core.Factories;
-using EShop.Mocks; 
+﻿using EShop.Core;
+using EShop.Core.Factories;
+using EShop.Mocks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-
 
 namespace EShop.Infrastructure.Factories
 {

@@ -1,6 +1,6 @@
 @EShop.Api_HostAddress = http://localhost:5206
 
-GET {{EShop.Api_HostAddress}}/weatherforecast/
+GET {{EShop.Api_HostAddress}}/Alza/
 Accept: application/json
 
 ###

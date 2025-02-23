@@ -1,3 +1,5 @@
+using EShop.Application;
+using EShop.Core;
 using Moq;
 
 namespace EShop.Tests

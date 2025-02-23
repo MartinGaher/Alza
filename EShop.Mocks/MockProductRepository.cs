@@ -1,4 +1,6 @@
-﻿namespace EShop.Mocks
+﻿using EShop.Core;
+
+namespace EShop.Mocks
 {
     public class MockProductRepository : IProductRepository
     {
@@ -20,6 +22,11 @@
             return Task.FromResult(_products.FirstOrDefault(p => p.Id == id));
         }
 
+        public Task<IEnumerable<Product>> GetAllProducts()
+        {
+            return Task.FromResult(_products.AsEnumerable());
+        }
+
         public Task<IEnumerable<Product>> GetAllProducts(int page, int pageSize)
         {
             return Task.FromResult(_products.Skip((page - 1) * pageSize).Take(pageSize).AsEnumerable());
@@ -28,10 +35,12 @@
         public Task UpdateProductDescription(int id, string description)
         {
             var product = _products.FirstOrDefault(p => p.Id == id);
+
             if (product != null)
             {
                 product.Description = description;
             }
+
             return Task.CompletedTask;
         }
     }
