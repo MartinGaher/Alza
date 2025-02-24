@@ -6,14 +6,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace EShop.Infrastructure.Factories
 {
-    public class RepositoryFactory : IRepositoryFactory
+    public class RepositoryFactory(bool useMockData) : IRepositoryFactory
     {
-        private readonly bool _useMockData;
-
-        public RepositoryFactory(bool useMockData)
-        {
-            _useMockData = useMockData;
-        }
+        private readonly bool _useMockData = useMockData;
 
         public IProductRepository CreateProductRepository(IServiceProvider serviceProvider)
         {
